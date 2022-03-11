@@ -1,0 +1,23 @@
+int main() {
+    // Write C code here
+  int pin=0;
+  int tries=0;
+  
+  printf("bank of rustam\n");
+  printf("enter your pin:");
+  scanf("%d",& pin);
+  
+  tries++;
+  
+  while (pin !=1234 && tries<3)
+ {printf("enter your pin:");
+ scanf("%d",& pin);
+ tries++;
+ }
+ 
+ if (pin==1234) {
+  printf("now you have access!\n ");
+  printf("you are log in.\n");
+ }
+    }
+ 
