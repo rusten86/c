@@ -137,3 +137,23 @@ a
 test 
   
 She said, "How are you?" 
+
+
+other format
+%c	a single character
+%d	a decimal integer
+%i	an integer
+%e	scientific notation, with a lowercase "e"
+%E	scientific notation, with an uppercase "E"
+%f	a floating-point number
+%g	use %e or %f, whichever is shorter
+%G	use %E or %f, whichever is shorter
+%o	an octal number
+%x	unsigned hexadecimal, with lowercase letters
+%X	unsigned hexadecimal, with uppercase letters
+%u	an unsigned integer
+%s	a string
+%x	a hexadecimal number
+%p	a pointer
+%n	the argument shall be a pointer to an integer into which is placed the number of characters written so far
+%%	a percent sign
